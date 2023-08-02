@@ -5,12 +5,11 @@
   <title>Login/Sign Up Form</title>
   <link rel="stylesheet" type="text/css" href="style_landing.css">
 
-  
-     <!-- Boxicons -->
-     <link rel="stylesheet"
-     href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
-     
+  <!-- Boxicons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+
 </head>
 
 <body>
@@ -19,12 +18,12 @@
 
     <div class="loading-icon">
       <img src="images/foodfinder.png" alt="Loading Icon">
-  </div>
+    </div>
 
     <div class="loading-bar"></div>
     <div class="loading-text">Finding Food...</div>
- </div>
- 
+  </div>
+
   <section class="login_user">
     <div class="login_user_container">
       <div class="left_login_user">
@@ -41,18 +40,17 @@
               <h1>Login To </h1>
               <img src="images/logo.png" alt="">
             </div>
-            <form action="homepage.html">
+            <form action="index.html">
               <div class="form-group">
-      
+
                 <label for="username">Username:</label>
                 <input type="text" id="username" required>
-              
+
                 <label for="password">Password:</label>
                 <input type="password" id="password" required>
               </div>
-              <button type="submit"  class="normal"
-              value="Hover" onmouseover="mouseOver(this)" 
-              onmouseout="mouseOut(this)">Login</button>
+              <button type="submit" class="normal" value="Hover" onmouseover="mouseOver(this)"
+                onmouseout="mouseOut(this)">Login</button>
               <button type="button">Sign Up</button>
             </form>
           </div>
@@ -61,16 +59,18 @@
     </div>
   </section>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"></script>
   <script>
-    setTimeout(function(){
+    setTimeout(function () {
       $('.loading-screen').fadeToggle();
     }, 1500);
 
-    
+
   </script>
 
-<script src="main.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
